@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\Screenshot\\SimulasiKredit'</initValue>
+      <name>screenshotPathKredit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\Screenshot\\SimulasiBudget'</initValue>
+      <name>screenshotPathBudget</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\Screenshot\\SimulasiMiniMax'</initValue>
+      <name>screenshotPathMiniMax</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

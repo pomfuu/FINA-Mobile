@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AngsuranMuka</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>509667c6-d4dd-409b-ab56-107737f0abbf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9a12b47a-7a39-405a-acb3-8515cef8ea3c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9a12b47a-7a39-405a-acb3-8515cef8ea3c</id>
+      <masked>false</masked>
+      <name>No</name>
+   </variable>
+</TestCaseEntity>

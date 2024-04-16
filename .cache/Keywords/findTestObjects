@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "CBADBB47130FD94E9455CA6F9079A8C7",
+  "keywordClasses": [
+    {
+      "name": "CustomTestObjectKeywords",
+      "keywordMethods": [
+        {
+          "name": "findTestObjectsByXpath",
+          "parameters": [
+            {
+              "name": "xpath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

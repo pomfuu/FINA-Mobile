@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AngsuranBelakang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b7b6f90-0456-48c9-adca-551f8431d603</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f1dd184c-4198-4103-aa26-7cc80dbf6b5b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3105755a-f6b9-4e55-9cc8-b4e48d519e90</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f1dd184c-4198-4103-aa26-7cc80dbf6b5b</id>
+      <masked>false</masked>
+      <name>No</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mini for Max'</defaultValue>
+      <description></description>
+      <id>3105755a-f6b9-4e55-9cc8-b4e48d519e90</id>
+      <masked>false</masked>
+      <name>JenisSimulasi</name>
+   </variable>
+</TestCaseEntity>
