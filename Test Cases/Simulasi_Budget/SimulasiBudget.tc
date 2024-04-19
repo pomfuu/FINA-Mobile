@@ -107,123 +107,435 @@
       <value></value>
       <variableId>4d3fd846-5b10-4fe4-bafd-3017c2d5d23d</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>70bb3583-9fe0-4777-b3aa-6dcf5cd847f8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c291507-d5fe-4c91-8268-86882faa8494</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>be2842f3-a694-4cf3-af71-d1455cf4be53</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ae90a60-dbb1-4c0a-989c-f3844624cb3b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eafbe59f-4432-428c-bdf7-e888025de26d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>327e08d4-561c-42b7-be48-5c2f0e7eb913</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58da1f7f-226b-437b-af03-18773195ddfa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1016a3d-b88e-4fe1-88fe-28dde6c61399</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4771f4ae-0b45-4c77-b8be-7b40306c69d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d42ed385-4880-4dd5-bc34-23ebd25f8293</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36f30274-3e1a-4399-acf6-88e1c1697b71</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3df9110d-8bc8-482f-80d6-6a7d2563080d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>154f78d7-b661-4019-a3ae-4e399e89be0e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fdd68e6b-86c4-434d-b4ee-915847722373</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ac2386ea-6e63-4208-a0f0-2c0722f4e156</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f36ec2e4-0996-48a1-906f-50383e07cd53</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d73a4ad-5d96-411b-a4be-169e2fcd9dcd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4bdf709c-e4c4-4a90-8f6e-5d893c16f04e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79e4a550-2436-428e-9244-5ebbfa021da0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2fdb9684-f54c-4911-a6d8-78c3cedc1bb1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3e63a068-a435-46c2-9681-4c0083094943</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c1a2147-5554-4eb1-9521-6738288f0bc0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f7a40e8c-652f-46a0-ac36-7999ff59d3dd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f78b44a9-d6e7-4831-b2cc-49a22325ef50</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'3'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>f9622762-4d66-47d4-a71f-3636a0776e2e</id>
       <masked>false</masked>
       <name>No</name>
    </variable>
    <variable>
-      <defaultValue>'Budget'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>47e1c679-256e-495e-a990-b18a59cc7312</id>
       <masked>false</masked>
       <name>JenisSimulasi</name>
    </variable>
    <variable>
-      <defaultValue>'New'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>fcf42cfd-2dd1-4cab-8573-b0460364a83d</id>
       <masked>false</masked>
       <name>KondisiKendaraan</name>
    </variable>
    <variable>
-      <defaultValue>'255000000'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>8f55e156-1cd2-4bd4-8a41-ca230a3da169</id>
       <masked>false</masked>
       <name>HargaKendaraan</name>
    </variable>
    <variable>
-      <defaultValue>'5'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>7364aa4a-69d1-43ce-9f08-a663e922b58c</id>
       <masked>false</masked>
       <name>DP</name>
    </variable>
    <variable>
-      <defaultValue>'2023'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>f54aaf08-19b7-4be2-89e4-0e7f33544db8</id>
       <masked>false</masked>
       <name>Tahun</name>
    </variable>
    <variable>
-      <defaultValue>'Tenor 12 - Tenor 72'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>fbc8cf2c-c558-456e-945f-0825f2e6c426</id>
       <masked>false</masked>
       <name>Tenor</name>
    </variable>
    <variable>
-      <defaultValue>'No'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>199dbd20-b9e6-43bf-bc97-8965789dc7ed</id>
       <masked>false</masked>
       <name>GaransiMesin</name>
    </variable>
    <variable>
-      <defaultValue>'Combine'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>327e5a24-36fb-4c18-9c38-b178084ba679</id>
       <masked>false</masked>
       <name>Asuransi</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>d13b9b6d-955e-402e-b07e-982cf3685eb8</id>
       <masked>false</masked>
       <name>ZonaWilayah</name>
    </variable>
    <variable>
-      <defaultValue>'ADDM'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>16f8101a-ec5a-4e83-bf78-a0f3248c47a3</id>
       <masked>false</masked>
       <name>LoanType</name>
    </variable>
    <variable>
-      <defaultValue>'Prepaid'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>dcd0f931-98a5-4780-8c37-515a6e035f9a</id>
       <masked>false</masked>
       <name>BiayaFidusia</name>
    </variable>
    <variable>
-      <defaultValue>'Prepaid'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>6b275731-e71c-47cb-963e-fcddd151d375</id>
       <masked>false</masked>
       <name>BiayaCP</name>
    </variable>
    <variable>
-      <defaultValue>'Prepaid'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>5d2349b7-bd2c-4767-b139-373c566d7816</id>
       <masked>false</masked>
       <name>BiayaProvinsi</name>
    </variable>
    <variable>
-      <defaultValue>'On Loan'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>631fba33-f9c4-4b86-b8b2-eeae5a0ef52c</id>
       <masked>false</masked>
       <name>BiayaAsuransi</name>
    </variable>
    <variable>
-      <defaultValue>'On Loan'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>1a3eccfd-781f-4be5-8bbf-08585da428fa</id>
       <masked>false</masked>
       <name>BiayaAdmin</name>
    </variable>
    <variable>
-      <defaultValue>'BayarPertama'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>4d3fd846-5b10-4fe4-bafd-3017c2d5d23d</id>
       <masked>false</masked>
       <name>Simulasi</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>70bb3583-9fe0-4777-b3aa-6dcf5cd847f8</id>
+      <masked>false</masked>
+      <name>MukaDP1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9c291507-d5fe-4c91-8268-86882faa8494</id>
+      <masked>false</masked>
+      <name>MukaDP2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>be2842f3-a694-4cf3-af71-d1455cf4be53</id>
+      <masked>false</masked>
+      <name>MukaDP3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5ae90a60-dbb1-4c0a-989c-f3844624cb3b</id>
+      <masked>false</masked>
+      <name>MukaDP4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eafbe59f-4432-428c-bdf7-e888025de26d</id>
+      <masked>false</masked>
+      <name>MukaDP5</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>327e08d4-561c-42b7-be48-5c2f0e7eb913</id>
+      <masked>false</masked>
+      <name>MukaDP6</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>58da1f7f-226b-437b-af03-18773195ddfa</id>
+      <masked>false</masked>
+      <name>MukaAngsuran1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b1016a3d-b88e-4fe1-88fe-28dde6c61399</id>
+      <masked>false</masked>
+      <name>MukaAngsuran2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4771f4ae-0b45-4c77-b8be-7b40306c69d9</id>
+      <masked>false</masked>
+      <name>MukaAngsuran3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d42ed385-4880-4dd5-bc34-23ebd25f8293</id>
+      <masked>false</masked>
+      <name>MukaAngsuran4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>36f30274-3e1a-4399-acf6-88e1c1697b71</id>
+      <masked>false</masked>
+      <name>MukaAngsuran5</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3df9110d-8bc8-482f-80d6-6a7d2563080d</id>
+      <masked>false</masked>
+      <name>MukaAngsuran6</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>154f78d7-b661-4019-a3ae-4e399e89be0e</id>
+      <masked>false</masked>
+      <name>BelakangDP1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fdd68e6b-86c4-434d-b4ee-915847722373</id>
+      <masked>false</masked>
+      <name>BelakangDP2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac2386ea-6e63-4208-a0f0-2c0722f4e156</id>
+      <masked>false</masked>
+      <name>BelakangDP3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f36ec2e4-0996-48a1-906f-50383e07cd53</id>
+      <masked>false</masked>
+      <name>BelakangDP4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3d73a4ad-5d96-411b-a4be-169e2fcd9dcd</id>
+      <masked>false</masked>
+      <name>BelakangDP5</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4bdf709c-e4c4-4a90-8f6e-5d893c16f04e</id>
+      <masked>false</masked>
+      <name>BelakangDP6</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>79e4a550-2436-428e-9244-5ebbfa021da0</id>
+      <masked>false</masked>
+      <name>BelakangAngsuran1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2fdb9684-f54c-4911-a6d8-78c3cedc1bb1</id>
+      <masked>false</masked>
+      <name>BelakangAngsuran2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3e63a068-a435-46c2-9681-4c0083094943</id>
+      <masked>false</masked>
+      <name>BelakangAngsuran3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7c1a2147-5554-4eb1-9521-6738288f0bc0</id>
+      <masked>false</masked>
+      <name>BelakangAngsuran4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f7a40e8c-652f-46a0-ac36-7999ff59d3dd</id>
+      <masked>false</masked>
+      <name>BelakangAngsuran5</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f78b44a9-d6e7-4831-b2cc-49a22325ef50</id>
+      <masked>false</masked>
+      <name>BelakangAngsuran6</name>
    </variable>
 </TestCaseEntity>

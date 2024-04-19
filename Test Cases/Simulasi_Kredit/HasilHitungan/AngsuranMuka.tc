@@ -5,14 +5,23 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4b8175a2-0ddc-4005-8181-a8fe02bfdcc0</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b0a94c6d-635f-4f69-984d-6e74a22cec4d</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/matriksFINA</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>b0a94c6d-635f-4f69-984d-6e74a22cec4d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>No</value>
       <variableId>66f901fb-dfa1-4de3-b401-bda6f35c1871</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'3'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>66f901fb-dfa1-4de3-b401-bda6f35c1871</id>
       <masked>false</masked>

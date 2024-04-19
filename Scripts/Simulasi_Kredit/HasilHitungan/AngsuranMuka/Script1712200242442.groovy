@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,6 +17,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable
+
+import jxl.*
+import jxl.write.*
+import jxl.read.biff.BiffException
+
+import excel.WriteExcel
 
 String baseDir = System.getProperty('user.dir')
 String id = 'com.vq.mbrochuregp.client.android:id'
@@ -24,24 +36,31 @@ String id = 'com.vq.mbrochuregp.client.android:id'
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@text=' Angsuran di Muka']"]), 0)
 Mobile.takeScreenshot((((baseDir + GlobalVariable.screenshotPathKredit)) + '/' + No + '/' + 'Angsuran_Muka' + '/' + 'AngsuranMukaResult') + '.png', FailureHandling.STOP_ON_FAILURE)
 
-// Ambil Value DP dan Angsuran
-String TotalDP1 = Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[2]]"]), 0)
-String TotalAngsuran1 = Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[3]]"]), 0)
+// Buat variabel DP dan Angsuran buat di fetch di debit 
+def DP_Angsuran = [
+    ["MukaDP1", "//android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[2]"],
+    ["MukaDP2", "//android.widget.LinearLayout[2]/android.view.ViewGroup[1]/android.widget.TextView[2]"],
+    ["MukaDP3", "//android.widget.LinearLayout[3]/android.view.ViewGroup[1]/android.widget.TextView[2]"],
+    ["MukaDP4", "//android.widget.LinearLayout[4]/android.view.ViewGroup[1]/android.widget.TextView[2]"],
+    ["MukaDP5", "//android.widget.LinearLayout[5]/android.view.ViewGroup[1]/android.widget.TextView[2]"],
+    ["MukaDP6", "//android.widget.LinearLayout[6]/android.view.ViewGroup[1]/android.widget.TextView[2]"],
+    ["MukaAngsuran1", "//android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[3]"],
+    ["MukaAngsuran2", "//android.widget.LinearLayout[2]/android.view.ViewGroup[1]/android.widget.TextView[3]"],
+    ["MukaAngsuran3", "//android.widget.LinearLayout[3]/android.view.ViewGroup[1]/android.widget.TextView[3]"],
+    ["MukaAngsuran4", "//android.widget.LinearLayout[4]/android.view.ViewGroup[1]/android.widget.TextView[3]"],
+    ["MukaAngsuran5", "//android.widget.LinearLayout[5]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]"],
+    ["MukaAngsuran6", "//android.widget.LinearLayout[6]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]"]
+]
 
-String TotalDP2 = Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[2]/android.view.ViewGroup[1]/android.widget.TextView[2]]"]), 0)
-String TotalAngsuran2 = Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[2]/android.view.ViewGroup[1]/android.widget.TextView[3]]"]), 0)
+WriteExcel excelKeyword = new WriteExcel()
 
-String TotalDP3 = Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[3]/android.view.ViewGroup[1]/android.widget.TextView[2]]"]), 0)
-String TotalAngsuran3 = Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[3]/android.view.ViewGroup[1]/android.widget.TextView[3]]"]), 0)
-
-String TotalDP4 = Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[4]/android.view.ViewGroup[1]/android.widget.TextView[2]]"]), 0)
-String TotalAngsuran4 = Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[4]/android.view.ViewGroup[1]/android.widget.TextView[3]]"]), 0)
-
-String TotalDP5 = Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[5]/android.view.ViewGroup[1]/android.widget.TextView[2]]"]), 0)
-String TotalAngsuran5 = Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[5]/android.view.ViewGroup[1]/android.widget.TextView[3]]"]), 0)
-
-String TotalDP6 = Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[6]/android.view.ViewGroup[1]/android.widget.TextView[2]]"]), 0)
-String TotalAngsuran6 = Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[6]/android.view.ViewGroup[1]/android.widget.TextView[3]]"]), 0)
+DP_Angsuran.each { columnValue ->
+    def columnHeader = columnValue[0]
+    def xpath = columnValue[1]
+    
+    String cellValue = findTextValue(xpath)
+    excelKeyword.writeToExcel(columnHeader, cellValue, No)
+}
 
 // Pilih Masa Tenor
 for(int i = 1; i <= 6; i++) {
@@ -52,4 +71,9 @@ for(int i = 1; i <= 6; i++) {
 	Mobile.delay(1)
 	// Kembali ke Halaman Pilih Masa Tenor
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/btn_simulasi_close']"]), 0)
+}
+
+@Keyword
+def findTextValue(String xpath) {
+	Mobile.getText(findTestObject('Object Repository/xpath', ['xpath' : xpath]), 0)
 }

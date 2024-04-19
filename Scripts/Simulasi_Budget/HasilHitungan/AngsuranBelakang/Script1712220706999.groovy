@@ -24,20 +24,24 @@ String id = 'com.vq.mbrochuregp.client.android:id'
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@text='Angsuran di Belakang']"]), 0)
 Mobile.takeScreenshot((((baseDir + GlobalVariable.screenshotPathBudget)) + '/' + No + '/' + 'Angsuran_Belakang' + '/' + 'AngsuranBelakangResult') + '.png', FailureHandling.STOP_ON_FAILURE)
 
+TestObject testObject = findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]"])
+
 // Pilih Masa Tenor
-switch(KondisiKendaraan) {
-	case "Used":
-		 break;
+if (Mobile.verifyElementExist(testObject, 2, FailureHandling.OPTIONAL)) {
+	// Pilih Masa Tenor
+	for(int i = 1; i <= 1; i++) {
+		// Halaman Rincian
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[${i}]"]), 0)
+		Mobile.delay(1)
+		Mobile.takeScreenshot((((baseDir + GlobalVariable.screenshotPathBudget)) + '/' + "8" + '/' + 'Angsuran_Belakang' + '/' + i + ' tahun') + '.png', FailureHandling.STOP_ON_FAILURE)
+		Mobile.delay(1)
+		// Kembali ke Halaman Pilih Masa Tenor
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/btn_simulasi_close']"]), 0)
+	}
+} else {
 	
-	case "New":
-		for(int i = 1; i <= 6; i++) {
-			// Halaman Rincian
-			Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[${i}]"]), 0)
-			Mobile.delay(1)
-			Mobile.takeScreenshot((((baseDir + GlobalVariable.screenshotPathKredit)) + '/' + No + '/' + 'Angsuran_Belakang' + '/' + i + ' tahun') + '.png', FailureHandling.STOP_ON_FAILURE)
-			Mobile.delay(1)
-			// Kembali ke Halaman Pilih Masa Tenor
-			Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/btn_simulasi_close']"]), 0)
-		}
-		break;	
 }
+
+Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/iv_credit_simulation_installments_arrow_back']"]), 0)
+
+Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/iv_credit_simulation_installments_arrow_back']"]), 0)

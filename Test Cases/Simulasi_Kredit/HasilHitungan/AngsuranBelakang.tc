@@ -5,27 +5,36 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ec481e0f-e830-4835-b293-764c660bc204</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b0d9be9d-f9ee-40ef-a0b9-6beddc376aa7</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/matriksFINA</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>b0d9be9d-f9ee-40ef-a0b9-6beddc376aa7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>No</value>
       <variableId>12f48428-ea6a-4807-b8d2-572560780c8c</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>b0d9be9d-f9ee-40ef-a0b9-6beddc376aa7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>KondisiKendaraan</value>
       <variableId>1e148ba1-7f29-4653-b136-26ca8828f983</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'3'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>12f48428-ea6a-4807-b8d2-572560780c8c</id>
       <masked>false</masked>
       <name>No</name>
    </variable>
    <variable>
-      <defaultValue>'Used'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>1e148ba1-7f29-4653-b136-26ca8828f983</id>
       <masked>false</masked>
