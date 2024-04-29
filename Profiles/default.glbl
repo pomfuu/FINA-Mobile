@@ -19,4 +19,9 @@
       <initValue>'\\Screenshot\\SimulasiMiniMax'</initValue>
       <name>screenshotPathMiniMax</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>TahunTenor</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

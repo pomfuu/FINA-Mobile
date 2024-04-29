@@ -39,13 +39,18 @@ switch(JenisSimulasi) {
 		Mobile.takeScreenshot((((baseDir + GlobalVariable.screenshotPathMiniMax)) + '/' + 'Home_Page') + '.png', FailureHandling.STOP_ON_FAILURE)
 		
 		// Tutup Modal Popup
+	
 		TestObject modalCloseButton = findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = 'qa-closeButton']"])
 		
-		try {
-		    Mobile.waitForElementPresent(findTestObject('Object Repository/xpath', ['xpath' : "//android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]"]), 0)
-		    Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = 'qa-closeButton']"]), 0)
-		} catch (Exception e) {
-		    System.out.println("Modal not Shown: " + e.getMessage());
+		if (Mobile.verifyElementExist(modalCloseButton, 2, FailureHandling.OPTIONAL)) {
+			Mobile.tap(modalCloseButton, 0)
+		} else {
+			try {
+				Mobile.waitForElementPresent(findTestObject('Object Repository/xpath', ['xpath' : "//android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]"]), 0)
+				Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = 'qa-closeButton']"]), 0)
+			} catch (Exception e) {
+				System.out.println("Modal not Shown: " + e.getMessage());
+			}
 		}
 		
 		// Buka Simulasi Mini Max

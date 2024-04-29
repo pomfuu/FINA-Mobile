@@ -45,7 +45,7 @@ if (Mobile.verifyElementExist(testObject, 2, FailureHandling.OPTIONAL)) {
 		// Halaman Rincian
 		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[${i}]"]), 0)
 		Mobile.delay(1)
-		Mobile.takeScreenshot((((baseDir + GlobalVariable.screenshotPathMiniMax)) + '/' + "8" + '/' + 'Angsuran_Belakang' + '/' + i + ' tahun') + '.png', FailureHandling.STOP_ON_FAILURE)
+		Mobile.takeScreenshot((((baseDir + GlobalVariable.screenshotPathMiniMax)) + '/' + No + '/' + 'Angsuran_Belakang' + '/' + "8" + ' tahun') + '.png', FailureHandling.STOP_ON_FAILURE)
 		Mobile.delay(1)
 		// Kembali ke Halaman Pilih Masa Tenor
 		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/btn_simulasi_close']"]), 0)

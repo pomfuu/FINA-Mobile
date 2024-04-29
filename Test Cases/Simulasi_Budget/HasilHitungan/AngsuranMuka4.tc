@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AngsuranMuka4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9dd16264-312d-4033-a39e-26c231eb8d55</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33a05b68-6906-4304-ad5c-eed6999bc317</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>41d67a0f-b32b-4bc8-b9a5-de776aed2cb8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33a05b68-6906-4304-ad5c-eed6999bc317</id>
+      <masked>false</masked>
+      <name>No</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>41d67a0f-b32b-4bc8-b9a5-de776aed2cb8</id>
+      <masked>false</masked>
+      <name>TahunTenor</name>
+   </variable>
+</TestCaseEntity>
